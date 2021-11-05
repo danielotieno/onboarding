@@ -65,7 +65,17 @@ class OnBoardingOne extends StatelessWidget {
                   ),
                 ),
               ),
-            )
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 20.0),
+              child: Text(
+                'Sign In',
+                style: TextStyle(
+                  fontSize: 18.0,
+                  color: Colors.grey,
+                ),
+              ),
+            ),
           ],
         ),
       ),
