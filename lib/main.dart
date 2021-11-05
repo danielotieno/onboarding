@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:onboarding_app/screens/onboarding_one.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,15 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'First Onboarding Screen',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Onboarding Screen'),
-        ),
-        body: Center(
-          child: Text('First Onboarding Screen'),
-        ),
-      ),
+      home: Scaffold(body: OnBoardingOne()),
     );
   }
 }
