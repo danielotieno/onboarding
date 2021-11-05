@@ -46,6 +46,26 @@ class OnBoardingOne extends StatelessWidget {
                 ),
               ),
             ),
+            Container(
+              margin: EdgeInsets.only(top: 40.0),
+              child: ElevatedButton(
+                onPressed: () {},
+                child: Text(
+                  'Get My Plan'.toUpperCase(),
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 15.0,
+                      fontWeight: FontWeight.bold),
+                ),
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.purple,
+                  padding: EdgeInsets.all(15.0),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(18.0),
+                  ),
+                ),
+              ),
+            )
           ],
         ),
       ),
