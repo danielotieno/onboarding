@@ -31,7 +31,21 @@ class OnBoardingOne extends StatelessWidget {
                 image: DecorationImage(
                     image: AssetImage('assets/girl.png'), fit: BoxFit.cover),
               ),
-            )
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 20.0),
+              width: MediaQuery.of(context).size.width * 0.60,
+              child: FittedBox(
+                fit: BoxFit.fitWidth,
+                child: Text(
+                  'Happy Learning Flutter UI',
+                  style: TextStyle(
+                    fontSize: 38.0,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
